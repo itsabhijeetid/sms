@@ -1,0 +1,42 @@
+td {
+    width: 10.5em;
+    height: 5em;
+    background-color:#00000052;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    cursor: pointer;
+    color: #fff;
+    text-shadow:
+        0 0 1px black,
+        0 0 1px black,
+        0 0 2px black,
+        0 0 4px black,
+        0 0 8px black,
+        0 0 9px black,
+        0 0 1px black,
+        0 0 1px black;
+        
+}
+td:hover {
+    background-color:#00ffff52;
+}
+table {
+    float: left;
+    text-decoration: none;
+}
+h1 {
+    margin-left: 15em;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.logout_dash {
+    background-color: rgba(248, 105, 53, 0.411);
+}
+.logout_dash:hover {
+    background-color:rgba(255, 68, 0, 0.329);
+    color: orangered;
+}

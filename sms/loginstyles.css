@@ -1,0 +1,40 @@
+.card{
+  height: 330px;
+  margin-top: 2em;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
+  }
+input {
+  border-width:0.1em;
+  height: 2em;
+  width: 15em;
+}
+/* input:hover {
+  border-color: black;
+  border-width: 0.2em;
+} */
+.loginfont1 {
+  margin-top: 4em;
+}
+button {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  background-color: rgba(0, 0, 255, 0);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: chocolate;
+}
+fieldset {
+  margin-top:-8em;
+}
+legend {
+  text-align: center;
+}

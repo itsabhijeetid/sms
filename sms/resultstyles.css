@@ -1,0 +1,96 @@
+*{
+  margin:0;
+  padding:0;
+
+}
+body{
+  background-image:linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)), url(resultbg.jpg);
+  background-size: cover;
+  margin:10px;
+
+}
+.upperheading{
+  color:white;
+  text-align: center;
+  font-size: 35px;
+  padding-top:20px;
+  /* background-color: #444444; */
+  margin:5px;
+  border-radius: 40px;
+}
+.navbar{
+  display:flex;
+  padding:2% 2%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar img{
+  width:200px;
+  border-radius:50%;
+}
+.nav-links{
+  flex:1;
+  text-align: right;
+
+
+
+}
+.nav-links ul li{
+list-style: none;
+display:inline-block;
+padding:4px 6px;
+position:relative;
+
+}
+.nav-links ul li a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links ul li a:hover{
+  border:1px solid white;
+  padding:4px 8px;
+  border-radius: 9px;
+  background-color: #C84B31;
+
+}
+.searchform{
+  color:white;
+  font-size: 35px;
+font-weight: 500;
+  position:absolute;
+  top:65%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.formfield{
+  padding-top: 50px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 20px;
+  /* padding-bottom:50px; */
+  border-radius:40px;
+}
+input {
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+
+  border:1px solid white ;
+  /* font-size: 40px; */
+}
+input[type=submit]{
+  background-color:transparent;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:12px;
+  padding-bottom:12px;
+  color:white;
+
+}
+input[type=submit]:hover{
+  background-color: #C84B31;
+  cursor:pointer;
+}
